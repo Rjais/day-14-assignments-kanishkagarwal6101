@@ -1,0 +1,16 @@
+{
+  "name": "day-7-assignments",
+  "version": "1.0.0",
+  "description": "Day 7 Coding assignments",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "^26.4.2"
+  },
+  "author": "Arnav Puri"
+}
