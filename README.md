@@ -5,10 +5,6 @@
 ## Exercise 1: Combinations
 
 Create a function that takes a variable number of arguments, each argument representing the number of items in a group, and returns the number of permutations (combinations) of items that you could get by taking one item from each group.
-Each word in a sssentence must contain either:
-
--   At least 2 instances of the letter "s" (i.e. must be together ss), or...
--   Zero instances of the letter "s" by itself.
 
 ### Examples
 
@@ -59,8 +55,6 @@ countIdenticalArrays([0, 1, 2], [0, 1, 2], [0, 1, 2], [2, 1, 0]) ➞ 3
 ### Notes
 
 -   Don't forget to return the result.
--   If you get stuck on a challenge, find help in the Resources tab.
--   If you're really stuck, unlock solutions in the Solutions tab.
 
 ## Exercise 4 - A Redundant Function
 
