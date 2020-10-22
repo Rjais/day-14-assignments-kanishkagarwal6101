@@ -13,7 +13,11 @@ function fibStr(n, arr) {
     }
     let newStr = "";
     for(let i=0;i<newArr.length;i++){
+        if(i == newArr.length-1){
+            newStr+=newArr[i];
+        }else{
         newStr+=newArr[i]+", ";
+    }
     }
     return newStr;
 }
