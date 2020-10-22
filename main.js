@@ -11,7 +11,11 @@ function fibStr(n, arr) {
         second=tempStr;
         n = n-2;
     }
-    return newArr.toString();
+    let newStr = "";
+    for(let i=0;i<newArr.length;i++){
+        newStr+=newArr[i]+", ";
+    }
+    return newStr;
 }
 
 // Exercise 2
