@@ -9,7 +9,7 @@ function fibStr(n, arr) {
         newArr.push(tempStr)
         first=second;
         second=tempStr;
-        num = num-2;
+        n = n-2;
     }
     return newArr;
 }
