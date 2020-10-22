@@ -1,22 +1,22 @@
 // Exercise 1 - Given code. Please modify it to get desired output
-function combinations() {
+function fibStr(num, arr) {
 
 }
 
 // Exercise 2
-function primeNumbers(num) {
+function twoProduct(arr, num) {
 
 }
 
 
 // Exercise 3
-function countIdenticalArrays(arr, arr1, arr2, arr3) {
+function multiplicativePersistence(num) {
 
 }
 // Exercise 4
-function redundant(str) {
+function additivePersistence(num) {
 
 }
 
 // Do not change the line below
-module.exports = { combinations, primeNumbers, countIdenticalArrays, redundant };
+module.exports = { fibStr, twoProduct, additivePersistence, multiplicativePersistence };
