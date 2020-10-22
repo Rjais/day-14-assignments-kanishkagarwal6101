@@ -2,25 +2,20 @@
 function fibStr(n, arr) {
     let first=arr[0]
     let second=arr[1]
-    let newArr=[first,second]
+    let newArr = ""
+    newArr=first+", "+second;
     let tempStr=""
-    while(n>2){
+    while(n-2>0){
         tempStr = second+first
-        newArr.push(tempStr)
+        newArr+=", "+tempStr;
         first=second;
         second=tempStr;
-        n = n-2;
+        n--;
     }
-    let newStr = "";
-    for(let i=0;i<newArr.length;i++){
-        if(i == newArr.length-1){
-            newStr+=newArr[i];
-        }else{
-        newStr+=newArr[i]+", ";
-    }
-    }
-    return newStr;
+    return newArr;
 }
+console.log(fibStr(6, ["n", "k"]))
+console.log(fibStr(3, ["j", "h"]));
 
 // Exercise 2
 function twoProduct(arr,n){
