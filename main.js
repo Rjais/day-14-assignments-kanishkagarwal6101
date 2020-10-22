@@ -11,7 +11,7 @@ function fibStr(n, arr) {
         second=tempStr;
         n = n-2;
     }
-    return newArr;
+    return newArr.toString();
 }
 
 // Exercise 2
